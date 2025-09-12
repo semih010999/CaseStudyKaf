@@ -1,0 +1,720 @@
+fileFormatVersion: 2
+guid: 2cce1fe87cb3a044a87efe92e2b1b8a7
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MiniEarthWarrior-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 225
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 851391eb4a677dc4bb62b39ae6bbcb34
+      internalID: -1642342587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniEarthWarrior-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 225
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 765cb95295deef643beb15a9e37421a5
+      internalID: -1517806709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniEarthWarrior-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 225
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3abc9aeaaa1c5d419275363c11a812b
+      internalID: -472806801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniEarthWarrior-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 225
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51dcd5286e0a5664fa383edaf2d28608
+      internalID: -2053635845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniEarthWarrior-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 193
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aaa200b6ed5dec4f8e0d3589b9df52b
+      internalID: -1766417287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniEarthWarrior-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 193
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 544fa2486e83dd94c8f18a5cc9ee8090
+      internalID: 113532759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniEarthWarrior-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 193
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20c939210f271a845b6759bcd6e464c8
+      internalID: 1060493702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniEarthWarrior-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 193
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29deb7641d6bf624f96c4dab2e7c560b
+      internalID: 1786169090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniEarthWarrior-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 193
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7e8940d204e2be4e9e06726de86ab1c
+      internalID: -129609814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniEarthWarrior-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 193
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6cad386afbf7eb4babdcb785db06108
+      internalID: 676825022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniEarthWarrior-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 129
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd95672dc7b4eee4b944a98e1d3f2796
+      internalID: -1274698914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniEarthWarrior-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 129
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 022057d2ce959af449e54cfd8ad28729
+      internalID: -1540960000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniEarthWarrior-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 129
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7076e53c98cfc5e47aaac6787e249c9f
+      internalID: 1633653326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniEarthWarrior-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 129
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03418c2ffece5854194526e976cbb74c
+      internalID: 1136962429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniEarthWarrior-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 129
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03496ead9aa938d449c4678688a5b241
+      internalID: -711243563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniEarthWarrior-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 129
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98d40ba1dc24e1c4c83a9d2d170ef27b
+      internalID: 1629503413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniEarthWarrior-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 129
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e67a6baf55cc5f4690cb1f51be04ae4
+      internalID: -1012126790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniEarthWarrior-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 129
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f1bfd1499001d44c85a26a958c67c67
+      internalID: 1120369541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniEarthWarrior-Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61957011f371ab2439a087ab07a20db6
+      internalID: -1065872938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniEarthWarrior-Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bc98db7e763fca43a90de65134658a2
+      internalID: 2146304773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniEarthWarrior-Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ffe595d496dc274cb65b77c13e7fb64
+      internalID: 1212062418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniEarthWarrior-Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 1
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e29110eac382104e9ed1db1aefa201f
+      internalID: 2130707430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniEarthWarrior-Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 1
+        width: 22
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3a78105ab156c84bada976c5f178837
+      internalID: -1326448425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniEarthWarrior-Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1
+        width: 22
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda9de82f7e24aa4aaba3b99c30dd55d
+      internalID: -2096967134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e5853c83df3f72045abae2d23877f431
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      MiniEarthWarrior-Sheet_0: -1642342587
+      MiniEarthWarrior-Sheet_1: -1517806709
+      MiniEarthWarrior-Sheet_10: 77398565
+      MiniEarthWarrior-Sheet_11: 1511209940
+      MiniEarthWarrior-Sheet_12: -1615151693
+      MiniEarthWarrior-Sheet_13: -1274698914
+      MiniEarthWarrior-Sheet_14: -1540960000
+      MiniEarthWarrior-Sheet_15: 1633653326
+      MiniEarthWarrior-Sheet_16: 1136962429
+      MiniEarthWarrior-Sheet_17: -711243563
+      MiniEarthWarrior-Sheet_18: 1629503413
+      MiniEarthWarrior-Sheet_19: -1012126790
+      MiniEarthWarrior-Sheet_2: -472806801
+      MiniEarthWarrior-Sheet_20: 1120369541
+      MiniEarthWarrior-Sheet_21: 695934905
+      MiniEarthWarrior-Sheet_22: 1946194193
+      MiniEarthWarrior-Sheet_23: 1498109386
+      MiniEarthWarrior-Sheet_24: -253254570
+      MiniEarthWarrior-Sheet_25: -899336999
+      MiniEarthWarrior-Sheet_26: 1784874771
+      MiniEarthWarrior-Sheet_27: -996760082
+      MiniEarthWarrior-Sheet_28: 2124459922
+      MiniEarthWarrior-Sheet_29: 831639436
+      MiniEarthWarrior-Sheet_3: -2053635845
+      MiniEarthWarrior-Sheet_30: -1564940808
+      MiniEarthWarrior-Sheet_31: -452168357
+      MiniEarthWarrior-Sheet_32: -509139237
+      MiniEarthWarrior-Sheet_33: -1621467935
+      MiniEarthWarrior-Sheet_34: -145410987
+      MiniEarthWarrior-Sheet_35: -286285762
+      MiniEarthWarrior-Sheet_36: -1432213031
+      MiniEarthWarrior-Sheet_37: -1216516728
+      MiniEarthWarrior-Sheet_38: -1778456850
+      MiniEarthWarrior-Sheet_39: 97730882
+      MiniEarthWarrior-Sheet_4: -1766417287
+      MiniEarthWarrior-Sheet_40: -220392990
+      MiniEarthWarrior-Sheet_41: -1065872938
+      MiniEarthWarrior-Sheet_42: 2146304773
+      MiniEarthWarrior-Sheet_43: 1212062418
+      MiniEarthWarrior-Sheet_44: 2130707430
+      MiniEarthWarrior-Sheet_45: -1326448425
+      MiniEarthWarrior-Sheet_46: -2096967134
+      MiniEarthWarrior-Sheet_5: 113532759
+      MiniEarthWarrior-Sheet_6: 1060493702
+      MiniEarthWarrior-Sheet_7: 1786169090
+      MiniEarthWarrior-Sheet_8: -129609814
+      MiniEarthWarrior-Sheet_9: 676825022
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
