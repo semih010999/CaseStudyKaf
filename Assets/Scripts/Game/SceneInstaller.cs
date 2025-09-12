@@ -9,5 +9,6 @@ public class SceneInstaller : MonoInstaller
         Container.Bind<BulletObjectPool>().FromComponentInHierarchy().AsSingle();
         Container.Bind<GameManager>().FromComponentInHierarchy().AsSingle();
         Container.Bind<AddressablesManager>().FromComponentInHierarchy().AsSingle();
+        Container.Bind<GameDatas>().FromComponentInHierarchy().AsSingle();
     }
 }

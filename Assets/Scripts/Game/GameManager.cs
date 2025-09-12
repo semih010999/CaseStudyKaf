@@ -25,12 +25,14 @@ public class GameManager : MonoBehaviour
     public bool isStartWave = false;
     public int killCounter;
     AddressablesManager addressablesManager;
+    GameDatas gameDatas;
     CancellationTokenSource cts;
 
     [Inject]
-    void ZenjectSetup(AddressablesManager _addressablesManager)
+    void ZenjectSetup(AddressablesManager _addressablesManager, GameDatas _gameDatas)
     {
         addressablesManager = _addressablesManager;
+        gameDatas = _gameDatas;
     }
 
     void Update()
@@ -66,6 +68,7 @@ public class GameManager : MonoBehaviour
 
     public void StartNextWaveTimer(int duration)
     {
+        gameDatas.SaveGameData();
         cts?.Cancel();
         cts = new CancellationTokenSource();
 
