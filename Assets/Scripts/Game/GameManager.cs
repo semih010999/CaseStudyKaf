@@ -26,13 +26,15 @@ public class GameManager : MonoBehaviour
     public int killCounter;
     AddressablesManager addressablesManager;
     GameDatas gameDatas;
+    MenuScript menuScript;
     CancellationTokenSource cts;
 
     [Inject]
-    void ZenjectSetup(AddressablesManager _addressablesManager, GameDatas _gameDatas)
+    void ZenjectSetup(AddressablesManager _addressablesManager, GameDatas _gameDatas, MenuScript _menuScript)
     {
         addressablesManager = _addressablesManager;
         gameDatas = _gameDatas;
+        menuScript = _menuScript;
     }
 
     void Update()
@@ -68,6 +70,7 @@ public class GameManager : MonoBehaviour
 
     public void StartNextWaveTimer(int duration)
     {
+        if(waveCounter == 16) menuScript.OpenPanel(menuScript.winPanel);
         gameDatas.SaveGameData();
         cts?.Cancel();
         cts = new CancellationTokenSource();

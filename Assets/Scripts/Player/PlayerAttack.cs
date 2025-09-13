@@ -11,6 +11,7 @@ public class PlayerAttack : MonoBehaviour
 
     PlayerMovement playerMovement;
     BulletObjectPool bulletObjectPool;
+    PlayerData playerData;
     int shootDelay = 500;
     int shootDelayAuto = 1000;
     bool canShoot = true;
@@ -35,10 +36,11 @@ public class PlayerAttack : MonoBehaviour
     public Image skill1Icon;
 
     [Inject]
-    void ZenjectSetup(PlayerMovement _playerMovement, BulletObjectPool _bulletObjectPool)
+    void ZenjectSetup(PlayerMovement _playerMovement, BulletObjectPool _bulletObjectPool, PlayerData _playerData)
     {
         playerMovement = _playerMovement;
         bulletObjectPool = _bulletObjectPool;
+        playerData = _playerData;
     }
 
     void Update()
@@ -60,7 +62,7 @@ public class PlayerAttack : MonoBehaviour
             Quaternion lookRot = Quaternion.LookRotation(dir, Vector3.up);
             autoShootFirePoint.rotation = Quaternion.Slerp(autoShootFirePoint.rotation, lookRot, Time.deltaTime * 10f);
 
-            if (canShootAuto)
+            if (canShootAuto && playerData.isDamageable)
             {
                 AutoShoot();
             }

@@ -8,12 +8,15 @@ public class MenuScript : MonoBehaviour
 
     AddressablesManager addressablesManager;
     GameManager gameManager;
+    PlayerData playerData;
 
     [Header("Panels")]
     public GameObject menuPanel;
     public GameObject settingsPanel;
     public GameObject gamePanel;
     public GameObject pausePanel;
+    public GameObject winPanel;
+    public GameObject gameOverPanel;
 
     [Header("Obejcts")]
     public GameObject player;
@@ -26,10 +29,11 @@ public class MenuScript : MonoBehaviour
     public AudioSource BGM;
 
     [Inject]
-    void ZenjectSetup(AddressablesManager _addressablesManager, GameManager _gameManager)
+    void ZenjectSetup(AddressablesManager _addressablesManager, GameManager _gameManager, PlayerData _playerData)
     {
         addressablesManager = _addressablesManager;
         gameManager = _gameManager;
+        playerData = _playerData;
     }
 
     public void NewGame()
@@ -38,6 +42,8 @@ public class MenuScript : MonoBehaviour
         gameManager.waveCounter = 0;
         gameManager.killCounter = 0;
         gameManager.UpdateKillCounterText();
+        playerData.hearthCounter = 2;
+        playerData.UpdateHearts(2);
         addressablesManager.LoadAssets();
         menuPanel.SetActive(false);
         pausePanel.SetActive(false);
@@ -53,6 +59,17 @@ public class MenuScript : MonoBehaviour
         pausePanel.SetActive(false);
         gamePanel.SetActive(true);
         player.SetActive(true);
+    }
+
+    public void MainMenu()
+    {
+        BGM.Stop();
+        menuPanel.SetActive(true);
+        pausePanel.SetActive(false);
+        gamePanel.SetActive(false);
+        player.SetActive(false);
+        winPanel.SetActive(false);
+        gameOverPanel.SetActive(false);
     }
 
     public void StartStressTest()
